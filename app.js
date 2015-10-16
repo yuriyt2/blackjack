@@ -1,5 +1,4 @@
-//Blackjack, 10/
-
+//Blackjack, 10/15/15, by Yuriy Turetskiy
 
 console.log("Javascript activated.")
 
@@ -87,7 +86,7 @@ var dealCards = function () {
 
 }
 
-//+++++++++++++++CREATE FUNCTIONS TO GET YOUR TOTAL SCORE+++++++++++++++++++
+//+++++++++++++++CREATE FUNCTION TO GET YOUR TOTAL SCORE+++++++++++++++++++
 
 //This is going to add up the number values of the cards in the array passed.
 var totalScoreFinder = function(array){
@@ -107,8 +106,7 @@ var totalScoreFinder = function(array){
   return scoreCalculator
 }
 
-
-
+//+++++++++++++++++++++++++++HIT FUNCTION++++++++++++++++++++++++++++++++++++
 
 
 

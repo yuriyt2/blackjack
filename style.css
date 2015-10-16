@@ -1,5 +1,5 @@
 body {
-  background: url(back.jpg);
+  background: url(images/back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -37,7 +37,7 @@ z-index: 1
 }
 
 .hidden {
-  content:url(cardback.gif);
+  content:url(images/cardback.gif);
   padding: -2px;
 
 }
@@ -132,8 +132,8 @@ z-index: 1
 }
 
 
-/*BUTTONS*/
-
+/*********************************BUTTONS**********************************/
+/*These buttoms came from a button generating site, then I placed them*/
 
 .myButton {
 	background-color:#2766d1;
