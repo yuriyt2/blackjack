@@ -97,7 +97,6 @@ var totalScoreFinder = function(array){
 //If the total is above 21, this checks for aces and turns them into 1s.
   if (scoreCalculator > 21){
     for (var j = 0; j < array.length; j++) {
-      console.log(scoreCalculator)
       if(array[j].number === 11){
         scoreCalculator = scoreCalculator - 10
       }
@@ -106,16 +105,54 @@ var totalScoreFinder = function(array){
   return scoreCalculator
 }
 
+
 //+++++++++++++++++++++++++++HIT FUNCTION++++++++++++++++++++++++++++++++++++
 
-
-
-
-
+var playerHits = function(array){
+  array.push(currentDeck.pop());
+  newCard = $("<div>");
+  $(newCard).attr("class","card hidden");
+  $(newCard).text(array[array.length-1].name);
+    if (array === yourCardsArray){
+    $(newCard).attr("id",("your-card" + yourCardsArray.length));
+    }else {$(newCard).attr("id",("dealer-card" + dealerCardArray.length))}
+  $(document.body).append(newCard);
+  setTimeout(function(){$(newCard).attr("class","card")},1000);
+  setTimeout(function (){$(myConsole).text("You have " + totalScoreFinder(yourCardsArray) + ", do you hit or stand?")},1500)
+}
 
 
 //++++++++++++++++++++++ADD EVENT LISTENERS++++++++++++++++++++++++++++++++++
+  document.getElementById("hit").addEventListener("click",function(){playerHits(yourCardsArray)})
+  document.getElementById('deal').addEventListener("click",function(){blackJackGame()})
+  document.getElementById('stand').addEventListener("click",function(){})
 
+
+//++++++++++++++++++++++++BLACKJACK TESTER++++++++++++++++++++++++++++++++++++
+
+var blackJackTester = function(array){
+  if( (array[0].number === 11 || array[1].number === 11) && (array[0].number === 10 || array[1].number === 10)  ){
+    return true
+  }
+}
+
+//++++++++++++++++++++++++MAKE THE GAME+++++++++++++++++++++++++++++++++++++++
+  var blackJackGame = function (){
+
+  //step one is to make deck and deal the cards
+    makeDeck();
+    dealCards();
+  //hide the display button until I need it again
+   dealButton = $("#deal")
+   setTimeout(function() {$(dealButton).css("display","none")},1900)
+  //check for blackjacks
+  if (blackJackTester(yourCardsArray) === true && blackJackTester(dealerCardArray) !== true){
+    setTimeout(function(){alert("YOU WIN")},1500)
+  } else if (blackJackTester(dealerCardArray) === true && blackJackTester(yourCardsArray) !== true){
+    setTimeout(function(){alert("YOU LOSE, LOSER")},1500)
+  }
+
+}
 
 
 
@@ -136,10 +173,7 @@ var totalScoreFinder = function(array){
 
 
 //for testing purposes only!
-makeDeck()
-dc2 = document.getElementById("dealer-card1")
-dc2.innerHTML = cardArray[4].name
-currentDeck = shuffleDeck()
+
 
 
 
