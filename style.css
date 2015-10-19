@@ -25,7 +25,7 @@ z-index: 1
 
 .card {
   height: 100px;
-  width: 60px;
+  width: 70px;
   font-size: 44px;
   background-color: white;
   border: 2px solid black;
@@ -62,23 +62,23 @@ z-index: 1
   top: 230px;
 }
 #dealer-card2 {
-  right: 265px;
+  right: 255px;
   top: 235px;
 }
 #dealer-card3 {
-  right: 215px;
+  right: 195px;
   top: 240px;
 }
 #dealer-card4 {
-  right: 165px;
+  right: 135px;
   top: 245px;
 }
 #dealer-card5 {
-  right: 115px;
+  right: 75px;
   top: 250px;
 }
 #dealer-card6 {
-  right: 65px;
+  right: 15px;
   top: 255px;
 }
 
@@ -103,23 +103,23 @@ z-index: 1
   top: 390px;
 }
 #your-card2 {
-  left: 145px;
+  left: 155px;
   top: 395px;
 }
 #your-card3 {
-  left: 195px;
+  left: 220px;
   top: 400px;
 }
 #your-card4 {
-  left: 245px;
+  left: 285px;
   top: 405px;
 }
 #your-card5 {
-  left: 295px;
+  left: 350px;
   top: 410px;
 }
 #your-card6 {
-  left: 345px;
+  left: 415px;
   top: 415px;
 }
 
@@ -224,5 +224,5 @@ SECRETS*/
   width: 200px;
   height: 200px;
   position: absolute;
-  top: 90%;
+
 }
