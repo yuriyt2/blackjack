@@ -310,14 +310,24 @@ var resetBoard = function (){
 
 //++++++++++++++++++++++++OR IS IT????+++++++++++++++++++++++++++++++++++++++
 //SECRETS
-left = 150000
-var walkingPony = function() {
-  var pony = $('#pony');
-  left = left - 10
-  $(pony).css("left", left + "px")
-  $(pony).css("top", "150px")
-  if (left < -120000) {
-    left = 120000
-  }
-};
-setInterval(walkingPony,10)
+// left = 150000
+// var walkingPony = function() {
+//   var pony = $('#pony');
+//   left = left - 10
+//   $(pony).css("left", left + "px")
+//   $(pony).css("top", "150px")
+//   if (left < -120000) {
+//     left = 120000
+//   }
+// };
+// setInterval(walkingPony,10)
+setTimeout(function(){$('#pony').css("left","1500px");$('#pony').hide()},0)
+var ponyTime = function (){
+  //var left = 1000
+  $('#pony').show()
+  $('#pony').animate({left:'1000'},"slow")
+  $('#pony').animate({left:'500'},"slow")
+  $('#pony').animate({left:'-500'},"slow")
+  //$('#pony').hide();
+}
+setTimeout(function(){ponyTime()},100000)
