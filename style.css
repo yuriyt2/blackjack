@@ -196,7 +196,7 @@ z-index: 1
   display: inline;
   margin: 1px;
   position: absolute;
-  bottom: 50px;
+  top: 90px;
   left: 0px;
 }
 #buttons >ul>li {
