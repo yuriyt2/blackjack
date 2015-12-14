@@ -330,4 +330,4 @@ var ponyTime = function (){
   $('#pony').animate({left:'-500'},"slow")
   //$('#pony').hide();
 }
-setTimeout(function(){ponyTime()},100000)
+setTimeout(function(){ponyTime()},200000)
