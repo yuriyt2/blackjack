@@ -1,10 +1,10 @@
-# Javascript Blackjack
+# JavaScript Blackjack
 ## By [Yuriy Turetskiy](https://github.com/yuriyt2)
 
 ![screenshot](./screenshot.png)
 
 ### Purpose
-+ A single-player Javascript blackjack browser game.
++ A single-player JavaScript blackjack browser game.
 
 ### Features
 + Players can play hands of blackjack against a dealer.
@@ -16,4 +16,4 @@
 
 ### Play
 
-[Javascript Blackjack](http://yuriygame.bitballoon.com)
+[JavaScript Blackjack](http://yuriygame.bitballoon.com)
