@@ -8,11 +8,14 @@
 
 ### Features
 + Players can play hands of blackjack against a dealer.
-+ Players lose 10 points when the dealer wins, win 10 points when they beat the dealer, win 15 points for blackjack (unless the dealer also has blackjack).  Scores are not changed in the event of a split.
++ Player starts with 100 points.
++ Scoring: player loses 10 points when the dealer wins (or player busts), wins 10 points when they beat the dealer, wins 15 points for blackjack (unless the dealer also has blackjack).  Scores are not changed in the event of a split.
 
 ### Technology Used
 + Javascript
-+ JQuery
++ jQuery
++ HTML
++ CSS
 
 ### Play
 
