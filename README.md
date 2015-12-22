@@ -11,10 +11,10 @@
 + Player starts with 100 chips.
 + Dealer will automatically hit until 17.
 + Scoring: 
-  1. -10 chips when the dealer wins (or player busts) 
-  2. +10 chips when they beat the dealer 
-  3. +15 chips for blackjack (unless the dealer also has blackjack)  
-  4. No change in the event of a split.
+  + -10 chips when the dealer wins (or player busts) 
+  + +10 chips when they beat the dealer 
+  + +15 chips for blackjack (unless the dealer also has blackjack)  
+  +  No change in the event of a split.
 
 ### Technology Used
 + Javascript
