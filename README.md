@@ -24,4 +24,4 @@
 
 ### Play
 
-#[Browser Blackjack](__http://yuriyturetskiy.com/blackjack__)
+#[Browser Blackjack](http://yuriyturetskiy.com/blackjack)
