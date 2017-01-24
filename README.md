@@ -1,4 +1,4 @@
-# Browser Blackjack
+#[Browser Blackjack](http://yuriyturetskiy.com/blackjack)
 ## By [Yuriy Turetskiy](https://github.com/yuriyt2)
 
 ![screenshot](./screenshot.png)
@@ -24,4 +24,4 @@
 
 ### Play
 
-#[Browser Blackjack](http://yuriyturetskiy.com/blackjack)
+##[Browser Blackjack](http://yuriyturetskiy.com/blackjack)
