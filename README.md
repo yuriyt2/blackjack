@@ -1,4 +1,4 @@
-# JavaScript Blackjack
+# Browser Blackjack
 ## By [Yuriy Turetskiy](https://github.com/yuriyt2)
 
 ![screenshot](./screenshot.png)
@@ -24,4 +24,4 @@
 
 ### Play
 
-[JavaScript Blackjack](http://yuriygame.bitballoon.com)
+[Browser Blackjack](http://yuriygame.bitballoon.com)
